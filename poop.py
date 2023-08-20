@@ -12,7 +12,7 @@ symbols = "!#$%&@.,*()`+;:"
 
 string = small + big + numbers + symbols
 length = 32
-password = "LICENSE" + "".join(random.sample(string,length))
+password = "".join(random.sample(string,length))
 
 print("password:" + password)
 
