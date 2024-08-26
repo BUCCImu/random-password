@@ -14,6 +14,6 @@ string = small + big + numbers + symbols
 length = 32
 password = "".join(random.sample(string,length))
 
-print("password:" + password)
+print("password: " + password)
 
 #made by BUCCI
